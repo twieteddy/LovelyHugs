@@ -95,12 +95,15 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
-                    <encoding>UTF-8</encoding>
                     <source>8</source>
                     <target>8</target>
                 </configuration>
             </plugin>
         </plugins>
-
     </build>
+
+    <!-- Properties -->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 </project>
